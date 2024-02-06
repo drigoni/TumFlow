@@ -1,0 +1,17 @@
+version: '1'
+services:
+  tumflow:
+    image: tumflow
+    deploy:
+      resources:
+        #shm_size: 8g
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+    volumes:
+      - ./:/TumFlow
+      - type: tmpfs
+        target: /dev/shm
+        tmpfs:
+           size: 4096000000 # 4GB
