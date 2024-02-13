@@ -1,5 +1,16 @@
 # TumFlow
-This repository contains the code used to generate the results reported in the paper: [TODO](TODO).
+This repository contains the code used to generate the results reported in the paper: [TumFlow: An AI Model for Predicting New Anticancer Molecules](https://www.biorxiv.org/content/10.1101/2024.02.06.579053v1.abstract).
+
+```
+@article{rigoni2024tumflow,
+  title={TumFlow: An AI Model for Predicting New Anticancer Molecules},
+  author={Rigoni Sr, Davide and Yaddehige, Sachithra and Bianchi, Nicoletta and Sperduti, Alessandro and Moro, Stefano and Taccioli, Cristian},
+  journal={bioRxiv},
+  pages={2024--02},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
 
 ## Overall Model
 <img src="./images/Fig_1.png" alt="drawing" width="100%"/>
