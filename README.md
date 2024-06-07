@@ -1,14 +1,19 @@
 # TumFlow
-This repository contains the code used to generate the results reported in the paper: [TumFlow: An AI Model for Predicting New Anticancer Molecules](https://www.biorxiv.org/content/10.1101/2024.02.06.579053v1.abstract).
+This repository contains the code used to generate the results reported in the paper: [TumFlow: An AI Model for Predicting New Anticancer Molecules](https://www.mdpi.com/1422-0067/25/11/6186).
 
 ```
-@article{rigoni2024tumflow,
-  title={TumFlow: An AI Model for Predicting New Anticancer Molecules},
-  author={Rigoni Sr, Davide and Yaddehige, Sachithra and Bianchi, Nicoletta and Sperduti, Alessandro and Moro, Stefano and Taccioli, Cristian},
-  journal={bioRxiv},
-  pages={2024--02},
-  year={2024},
-  publisher={Cold Spring Harbor Laboratory}
+@Article{ijms25116186,
+AUTHOR = {Rigoni, Davide and Yaddehige, Sachithra and Bianchi, Nicoletta and Sperduti, Alessandro and Moro, Stefano and Taccioli, Cristian},
+TITLE = {TumFlow: An AI Model for Predicting New Anticancer Molecules},
+JOURNAL = {International Journal of Molecular Sciences},
+VOLUME = {25},
+YEAR = {2024},
+NUMBER = {11},
+ARTICLE-NUMBER = {6186},
+URL = {https://www.mdpi.com/1422-0067/25/11/6186},
+ISSN = {1422-0067},
+ABSTRACT = {Melanoma is the fifth most common cancer in the United States. Conventional drug discovery methods are inherently time-consuming and costly, which imposes significant limitations. However, the advent of Artificial Intelligence (AI) has opened up new possibilities for simulating and evaluating numerous drug candidates, thereby mitigating the requisite time and resources. In this context, normalizing flow models by employing machine learning techniques to create new molecular structures holds promise for accelerating the discovery of effective anticancer therapies. This manuscript introduces TumFlow, a novel AI model designed to generate new molecular entities with potential therapeutic value in cancer treatment. It has been trained on the NCI-60 dataset, encompassing thousands of molecules tested across 60 tumour cell lines, with an emphasis on the melanoma SK-MEL-28 cell line. The model successfully generated new molecules with predicted improved efficacy in inhibiting tumour growth while being synthetically feasible. This represents a significant advancement over conventional generative models, which often produce molecules that are challenging or impossible to synthesize. Furthermore, TumFlow has also been utilized to optimize molecules known for their efficacy in clinical melanoma treatments. This led to the creation of novel molecules with a predicted enhanced likelihood of effectiveness against melanoma, currently undocumented on PubChem.},
+DOI = {10.3390/ijms25116186}
 }
 ```
 
